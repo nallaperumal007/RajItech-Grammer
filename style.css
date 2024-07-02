@@ -85,7 +85,7 @@ section .title::after{
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    background:green;
+    background:orange;
 
 }
 .navbar.sticky{
@@ -204,7 +204,7 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: green;
+    background: lightblue;
     color: black;
     font-size: 25px;
     padding: 12px 36px;
@@ -263,7 +263,7 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:white;
+    color:black;
     background: white;
 }
 .services .title::before,
@@ -273,7 +273,7 @@ section .title::after{
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: green;
+    background: lightblue;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -295,7 +295,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #fff;
+    color:black;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -674,3 +674,6 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+
+
